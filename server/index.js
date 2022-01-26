@@ -13,5 +13,5 @@ app.use(express.json());
 app.use("/js", express.static(path.join(__dirname, "public/main.js")));
 
 app.listen(port, () => {
-  console.log("listening on port" + port);
+  console.log(`listening on port ${port}`);
 });
